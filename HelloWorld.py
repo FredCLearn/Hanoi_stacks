@@ -37,21 +37,21 @@ def get_input():
             letter = choices[i]
             print("enter {0} for {1}".format(letter,name))
 
-        print(len(choices))
+        #print(len(choices))
 
         user_input = input("")
 
         #validating user input
         if user_input in choices:
-            print(len(choices))
-            print(choices)
-            print(choices.index(user_input))
+            #print(len(choices))
+            #print(choices)
+            #print(choices.index(user_input))
             for i in range(len(stacks)):
-                print("you entered one of the choices")
-                print(stacks[1].get_size())
-                print(stacks[1].print_items())
-                print("stack number")
-                print(i)
+                #print("you entered one of the choices")
+                #print(stacks[1].get_size())
+                #print(stacks[1].print_items())
+                #print("stack number")
+                #print(i)
                 return stacks[choices.index(user_input)]
         else:
             print("you did not enter one of the correct choices")
