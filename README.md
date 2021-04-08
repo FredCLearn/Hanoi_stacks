@@ -13,3 +13,4 @@ Rules:
 
 
 How to run game:
+-In terminal or IDE, run hanoi.py file
